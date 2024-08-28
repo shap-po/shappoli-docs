@@ -1,0 +1,65 @@
+site_name: Shappoli Documentation
+site_url: https://shappoli.readthedocs.io/en/latest/
+
+nav:
+  - Home: index.md
+  - General Types:
+      - Data Types: types/data.md
+      - Power Types: types/power.md
+  - Action Types:
+      # - Bi-entity Action Types: types/action/bientity.md
+      # - Block Action Types: types/action/block.md
+      - Entity Action Types: types/action/entity.md
+      # - Item Action Types: types/action/item.md
+      - Meta Action Types: types/action/meta.md
+  - Condition Types:
+      # - Bi-entity Condition Types: types/condition/bientity.md
+      # - Biome Condition Types: types/condition/biome.md
+      # - Block Condition Types: types/condition/block.md
+      # - Damage Condition Types: types/condition/damage.md
+      - Entity Condition Types: types/condition/entity.md
+      # - Fluid Condition Types: types/condition/fluid.md
+      - Item Condition Types: types/condition/item.md
+      # - Meta Condition Types: types/condition/meta.md
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: amber
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: amber
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  logo: images/logo.png
+  favicon: images/logo.png
+  features:
+    - navigation.expand
+    - content.code.copy
+    - content.code.select
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/shap-po/shappoli
+      name: Shappoli Source Code

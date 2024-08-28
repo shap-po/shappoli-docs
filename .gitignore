@@ -1,0 +1,11 @@
+# IDE files
+.vscode/
+.idea/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Dev files
+_*.*
