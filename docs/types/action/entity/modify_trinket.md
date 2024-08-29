@@ -3,6 +3,8 @@
 This action modifies trinkets in equipment slots.
 
 Type ID: `shappoli:modify_trinket`
+<br>
+Alias: `shappoli:modify_trinkets`
 
 !!! note
     This action requires [Trinkets](https://modrinth.com/mod/trinkets/) to be installed.
