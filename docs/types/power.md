@@ -13,7 +13,7 @@ Power Types are what grants functionality to your origins! Each power has a type
 
 ### Action-related
 
--   [Action On Trinket Update](power/action_on_trinket_update.md)
+-   [Action On Trinket Change](power/action_on_trinket_change.md)
 -   [Action On Event Receive](power/action_on_event_receive.md)
 
 ### Modifying types

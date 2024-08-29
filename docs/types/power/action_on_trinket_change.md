@@ -1,8 +1,10 @@
-# Action On Trinket Update
+# Action On Trinket Change
 
 This power is triggered when a trinket is equipped or unequipped. 
 
-Type ID: `shappoli:action_on_trinket_update`
+Type ID: `shappoli:action_on_trinket_change`
+<br>
+Alias: `shappoli:action_on_trinket_update`
 
 !!! note
     This power requires [Trinkets](https://modrinth.com/mod/trinkets/) to be installed.
@@ -27,7 +29,7 @@ Field | Type | Default | Description
 
 ```json
 {
-  "type": "shappoli:action_on_trinket_update",
+  "type": "shappoli:action_on_trinket_change",
   "entity_action_on_equip": {
     "type": "apoli:execute_command",
     "command": "say Equipped a trinket!"
@@ -46,7 +48,7 @@ This example will send a message when a player with this power equips or unequip
 
 ```json
 {
-  "type": "shappoli:action_on_trinket_update",
+  "type": "shappoli:action_on_trinket_change",
   "item_action_on_equip": {
     "type": "apoli:consume"
   },
