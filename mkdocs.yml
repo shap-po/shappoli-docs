@@ -21,6 +21,9 @@ nav:
       # - Fluid Condition Types: types/condition/fluid.md
       - Item Condition Types: types/condition/item.md
       # - Meta Condition Types: types/condition/meta.md
+  - Mod Integrations:
+      - Trinkets: integrations/trinkets.md
+      - Wildfire's Female Gender Mod: integrations/female_gender.md
 
 theme:
   name: material
