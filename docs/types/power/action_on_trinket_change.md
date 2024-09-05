@@ -24,6 +24,7 @@ Field | Type | Default | Description
 `item_condition` | [Item Condition Type](../condition/item.md) | | Condition that must be met for the action to trigger.
 `slot` | [Trinket Slot](../data/trinket_slot.md) | *optional* | Slot to check for trinket. If not specified, the action will trigger for any slot.
 `slots` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Trinket Slot](../data/trinket_slot.md) | *optional* | Slots to check for trinket. If not specified, the action will trigger for any slot.
+`execute_when_spawned` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | `false` | Whether to execute the action when the entity joins the world / spawns / respawns.
 
 ## Examples
 
