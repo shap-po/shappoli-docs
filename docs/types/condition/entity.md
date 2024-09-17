@@ -6,4 +6,5 @@
 
 ## Shappoli-specific
 
--   [Equipped Trinket](entity/equipped_trinket.md)
+-   [Equipped Trinket Count](entity/equipped_trinket_count.md)
+-   [Trinket Slot Count](entity/trinket_slot_count.md)

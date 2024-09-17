@@ -13,13 +13,20 @@ Power Types are what grants functionality to your origins! Each power has a type
 
 ### Action-related
 
+-   [Action On Entity Collision](power/action_on_entity_collision.md)
 -   [Action On Trinket Change](power/action_on_trinket_change.md)
--   [Action On Event Receive](power/action_on_event_receive.md)
 
 ### Modifying types
 
+-   [Modify Trinket Slot](power/modify_trinket_slot.md)
+-   [Conditioned Modify Trinket Slot](power/conditioned_modify_trinket_slot.md)
 -   [Modify Villager Reputation](power/modify_villager_reputation.md)
 
 ### Preventing types
 
 -   [Prevent Trinket Equip/Unequip](power/prevent_trinket_equip_unequip.md)
+
+### Receiving powers
+
+-   [Receive Action](power/receive_action.md)
+-   [Receive Condition](power/receive_condition.md)

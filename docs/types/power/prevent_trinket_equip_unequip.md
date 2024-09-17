@@ -11,8 +11,8 @@ Type IDs: `shappoli:prevent_trinket_equip` and `shappoli:prevent_trinket_unequip
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`slot` | [Trinket Slot](../data_types/trinket_slot.md) | *optional* | The slot to prevent the player from equipping or unequipping a trinket from.
-`slots` | [Array](../data_types/array.md) of [Trinket Slot](../data_types/trinket_slot.md) | *optional* | The slots to prevent the player from equipping or unequipping a trinket from.
+`slot` | [Trinket Slot](../data/trinket_slot.md) | *optional* | The slot to prevent the player from equipping or unequipping a trinket from.
+`slots` | [Array](https://origins.readthedocs.io/en/latest/types/data_types/array/) of [Trinket Slot](../data/trinket_slot.md) | *optional* | The slots to prevent the player from equipping or unequipping a trinket from.
 `item_condition` | [Item Condition Type](../condition/item.md) | *optional* | Condition that must be met for the action to trigger.
 `entity_condition` | [Entity Condition Type](../condition/entity.md) | *optional* | Condition that must be met for the action to trigger.
 `allow_in_creative` | [Boolean](https://origins.readthedocs.io/en/latest/types/data_types/boolean/) | `true` | Whether this power is ignored in creative mode.

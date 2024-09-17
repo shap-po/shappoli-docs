@@ -6,4 +6,6 @@
 
 ## Shappoli-specific
 
+-   [Morph](bientity/morph.md)
 -   [Suppress Power](bientity/suppress_power.md)
+-   [Teleport](bientity/teleport.md)

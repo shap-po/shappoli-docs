@@ -6,4 +6,4 @@
 
 ## Shappoli-specific
 
--   [Send Event](meta/send_event.md)
+-   [Send Action](meta/send_action.md)

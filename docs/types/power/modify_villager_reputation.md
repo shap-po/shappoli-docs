@@ -7,6 +7,9 @@ Type ID: `shappoli:modify_villager_reputation`
 !!! note
     In the context of this power type, the 'actor' entity is the entity that has the power whilst the 'target' entity is the villager, player is trading with.
 
+!!! info
+    This power is basically the same as a [Modify Villager Reputation](https://moborigins.ultrusmods.me/en/latest/power_types/modify_villager_reputation/) power from [Mob Origins](https://modrinth.com/mod/moborigins/) mod.
+
 ## Fields
 
 Field | Type | Default | Description

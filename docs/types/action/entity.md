@@ -7,3 +7,5 @@
 ## Shappoli-specific
 
 -   [Modify Trinket](entity/modify_trinket.md)
+-   [Morph](entity/morph.md)
+-   [Self Bientity Action](entity/self_bientity_action.md)

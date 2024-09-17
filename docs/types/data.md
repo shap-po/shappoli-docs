@@ -9,3 +9,4 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 ## Shappoli-specific
 
 -   [Trinket Slot](data/trinket_slot.md)
+-   [Slot Entity Attribute Modifier](data/slot_entity_attribute_modifier.md)
