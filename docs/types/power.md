@@ -14,17 +14,22 @@ Power Types are what grants functionality to your origins! Each power has a type
 ### Action-related
 
 -   [Action On Entity Collision](power/action_on_entity_collision.md)
--   [Action On Trinket Change](power/action_on_trinket_change.md)
+-   [Action On Shape Ability Use](power/action_on_shape_ability_use.md) (Requires [Woodwalkers](https://modrinth.com/mod/woodwalkers/))
+-   [Action On Shape Change](power/action_on_shape_change.md) (Requires [Woodwalkers](https://modrinth.com/mod/woodwalkers/))
+-   [Action On Trinket Change](power/action_on_trinket_change.md) (Requires [Trinkets](https://modrinth.com/mod/trinkets/))
 
 ### Modifying types
 
--   [Modify Trinket Slot](power/modify_trinket_slot.md)
--   [Conditioned Modify Trinket Slot](power/conditioned_modify_trinket_slot.md)
+-   [Modify Trinket Slot](power/modify_trinket_slot.md) (Requires [Trinkets](https://modrinth.com/mod/trinkets/))
+-   [Conditioned Modify Trinket Slot](power/conditioned_modify_trinket_slot.md) (Requires [Trinkets](https://modrinth.com/mod/trinkets/))
 -   [Modify Villager Reputation](power/modify_villager_reputation.md)
 
 ### Preventing types
 
--   [Prevent Trinket Equip/Unequip](power/prevent_trinket_equip_unequip.md)
+-   [Prevent Shape Ability Use](power/prevent_shape_ability_use.md) (Requires [Woodwalkers](https://modrinth.com/mod/woodwalkers/))
+-   [Prevent Shape Change](power/prevent_shape_change.md) (Requires [Woodwalkers](https://modrinth.com/mod/woodwalkers/))
+-   [Prevent Trinket Equip/Unequip](power/prevent_trinket_equip_unequip.md) (Requires [Trinkets](https://modrinth.com/mod/trinkets/))
+-   [Suppress Power](power/suppress_power.md)
 
 ### Receiving powers
 
